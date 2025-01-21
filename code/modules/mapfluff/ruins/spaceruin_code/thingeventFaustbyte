@@ -1,0 +1,20 @@
+/// Stage 1 code
+
+/// Base camp papers
+/obj/paper/fluff/ruins/thingEvent/baseCampReport
+	name = "Cycle 3 Notes"
+	default_raw_text = "We're still working on isolating whatever that signal was. The next shift should be in about six months, by standard solar time."
+
+/// Lab facility holodisks
+/obj/item/disk/holodisk/ruin/thingEvent/diskname
+	name = "name goes here"
+	preset_image_type = /// /datum/preset_holoimage/[image here]
+	preset_record_text = {"
+	NAME Example name
+	SAY text here
+	DELAY 20"}
+
+/// Lab facility papers
+/obj/paper/fluff/ruins/thingEvent/facilitySOS
+	name = ""
+	default_raw_text = ""
