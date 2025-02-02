@@ -3,18 +3,48 @@
 /// Base camp papers
 /obj/paper/fluff/ruins/thingEvent/baseCampReport
 	name = "Cycle 3 Notes"
-	default_raw_text = "We're still working on isolating whatever that signal was. The next shift should be in about six months, by standard solar time."
+	default_raw_text = "We're still working on isolating whatever that shit is. The next shift should be by in about six months, by standard solar time. Don't trash the place before then."
 
 /// Lab facility holodisks
-/obj/item/disk/holodisk/ruin/thingEvent/diskname
-	name = "name goes here"
-	preset_image_type = /// /datum/preset_holoimage/[image here]
+/obj/item/disk/holodisk/ruin/thingEvent/missionBriefing
+	name = "Project Synesthesia"
+	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
-	NAME Example name
-	SAY text here
-	DELAY 20"}
+	NAME Lab Director Edwards
+	SAY Right, mission statement.
+	DELAY 10
+	SAY We're here to research an anomalous signal Nanotrasen's picked up.
+	DELAY 20
+	SAY What we learn here, stays here. We can't have word getting out.
+	DELAY 25
+	SAY If the Syndicate gets word of this, we're through.
+	DELAY 20
+	SAY God be with us, and god bless Nanotrasen.
+	DELAY 25
+	"}
+
+/obj/item/disk/holodisk/ruin/thingEvent/labReportOne
+	name = "placeholder"
+	preset_image_type = /datum/preset_holoimage/researcher
+	preset_record_text = {"
+	NAME Lab Director Edwards
+	SAY
+	DELAY
+	SAY
+	DELAY
+	SAY
+	DELAY
+	SAY
+	DELAY
+	SAY
+	DELAY
+	"}
 
 /// Lab facility papers
 /obj/paper/fluff/ruins/thingEvent/facilitySOS
-	name = ""
+	name = "Crumpled Paper"
 	default_raw_text = ""
+
+/obj/paper/fluff/ruins/thingEvent/experimentalProcedure
+	name = "Official-Looking Paperwork"
+	default_raw_text = "<b><h3>Project Synesthesia</h3></b> <br><hr><br>No one is to approach the dig site without the proper sensory equipment. <br>All equipment must be returned to the labs and sterilized after use. <br>Every reading must be uploaded to the central computer system as soon as possible. <br>Do not go alone.<br><br><br>Failure to comply with these guidelines will result in immediate termination."
