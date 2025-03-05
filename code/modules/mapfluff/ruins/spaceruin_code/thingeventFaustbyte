@@ -6,12 +6,12 @@
 	default_raw_text = "We're still working on isolating whatever that shit is. The next shift should be by in about six months, by standard solar time. Don't trash the place before then."
 
 /// Lab facility holodisks
-/obj/item/disk/holodisk/ruin/thingEvent/missionBriefing
-	name = "Project Synesthesia"
+/obj/item/disk/holodisk/ruin/thingEvent/missionBriefing //can be multiple of this one, freebie
+	name = "Mission Brief"
 	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Lab Director Edwards
-	SAY Right, mission statement.
+	SAY Right, mission briefing.
 	DELAY 10
 	SAY We're here to research an anomalous signal Nanotrasen's picked up.
 	DELAY 20
@@ -23,7 +23,24 @@
 	DELAY 25
 	"}
 
-/obj/item/disk/holodisk/ruin/thingEvent/labReportOne
+/obj/item/disk/holodisk/ruin/thingEvent/labReportOne //just one or two
+	name = "placeholder"
+	preset_image_type = /datum/preset_holoimage/researcher
+	preset_record_text = {"
+	NAME Lab Director Edwards
+	SAY
+	DELAY
+	SAY
+	DELAY
+	SAY
+	DELAY
+	SAY
+	DELAY
+	SAY
+	DELAY
+	"}
+
+/obj/item/disk/holodisk/ruin/thingEvent/labReportTwo //just one
 	name = "placeholder"
 	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
@@ -41,10 +58,14 @@
 	"}
 
 /// Lab facility papers
-/obj/paper/fluff/ruins/thingEvent/facilitySOS
-	name = "Crumpled Paper"
-	default_raw_text = ""
+/obj/paper/fluff/ruins/thingEvent/welcome //add multiple of these around. think pamphlets. freebies
+	name = "Internal Memo"
+	default_raw_text = "</h2>Welcome to outpost Delta-II!</h2> <br>Here we're conducting important scientific research on the anomalous properties of this icy moon.<br>When you joined our staff, you joined our family. We're glad to have you here! You'll live, sleep, work, and spend your days with your team for six months, at which point you'll be cycled to another post.<br> <b>Have a great stay, and glory to Nanotrasen!</b>"
 
-/obj/paper/fluff/ruins/thingEvent/experimentalProcedure
+/obj/paper/fluff/ruins/thingEvent/facilitySOS //hide ONE copy deep in the map. should be hard to find.
+	name = "Crumpled Paper"
+	default_raw_text = "There's something down there. It KNOWS we're here. Get me off this fucking moon. We're not going to<br> (The rest of the paper is marred with a large smear of ink, as if a pen had snapped in half in the writer's hand, save for one line at the bottom: it reads, in large letters, ORPHEUS.)"
+
+/obj/paper/fluff/ruins/thingEvent/experimentalProcedure //multiple of these too. Deeper in the facility, around labs and stuff.
 	name = "Official-Looking Paperwork"
 	default_raw_text = "<b><h3>Project Synesthesia</h3></b> <br><hr><br>No one is to approach the dig site without the proper sensory equipment. <br>All equipment must be returned to the labs and sterilized after use. <br>Every reading must be uploaded to the central computer system as soon as possible. <br>Do not go alone.<br><br><br>Failure to comply with these guidelines will result in immediate termination."
