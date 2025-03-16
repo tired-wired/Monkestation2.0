@@ -24,37 +24,39 @@
 	"}
 
 /obj/item/disk/holodisk/ruin/thingEvent/labReportOne //just one or two
-	name = "placeholder"
+	name = "Report One"
 	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Lab Director Edwards
-	SAY
-	DELAY
-	SAY
-	DELAY
-	SAY
-	DELAY
-	SAY
-	DELAY
-	SAY
-	DELAY
+	SAY Preliminary findings look good.
+	DELAY 15
+	SAY Most readings are as expected from a moon of this class.
+	DELAY 25
+	SAY There's just... one anomaly.
+	DELAY 15
+	SAY The signal NT sent us for hasn't repeated.
+	DELAY 20
+	SAY But the magnetic field fluctuates to the south of the research base.
+	DELAY 25
+	SAY We're planning trips out with equipment. Hopefully we can find that signal again.
+	DELAY 20
 	"}
 
 /obj/item/disk/holodisk/ruin/thingEvent/labReportTwo //just one
-	name = "placeholder"
+	name = "Report Two"
 	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Lab Director Edwards
-	SAY
-	DELAY
-	SAY
-	DELAY
-	SAY
-	DELAY
-	SAY
-	DELAY
-	SAY
-	DELAY
+	SAY Right. We've... been out to the most drastic flux.
+	DELAY 30
+	SAY It's... unusual. That's a word for it.
+	DELAY 20
+	SAY The instruments screeched.
+	DELAY 10
+	SAY They're not made to do that.
+	DELAY 15
+	SAY The magnetic field may have interfered with them. We'll keep monitoring.
+	DELAY 30
 	"}
 
 /// Lab facility papers
