@@ -10,6 +10,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/smooth,
 /area/space)
+"bg" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/turf/open/floor/iron,
+/area/space)
 "bk" = (
 /obj/machinery/light/floor/has_bulb,
 /turf/open/floor/iron/freezer,
@@ -17,6 +21,13 @@
 "bq" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
+/area/space)
+"br" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "bt" = (
 /obj/structure/chair/sofa/corner/brown,
@@ -37,6 +48,10 @@
 /turf/open/floor/iron/dark/side{
 	dir = 8
 	},
+/area/space)
+"bJ" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/glass,
 /area/space)
 "bV" = (
 /obj/machinery/atmospherics/components/tank/air,
@@ -73,12 +88,24 @@
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"cp" = (
+/obj/structure/chair/comfy/beige{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
+/area/space)
 "cx" = (
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/parquet,
+/area/space)
+"cF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/sepia,
 /area/space)
 "cJ" = (
 /obj/machinery/shower/directional/south,
@@ -101,6 +128,10 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"cZ" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron,
+/area/space)
 "dc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
@@ -117,6 +148,17 @@
 "di" = (
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/iron,
+/area/space)
+"dt" = (
+/obj/structure/chair/comfy/beige{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/space)
+"dB" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/ocean/longseaweed,
+/turf/open/water/overlay,
 /area/space)
 "dI" = (
 /obj/structure/bed{
@@ -167,6 +209,33 @@
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"fs" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/machinery/door/airlock/material,
+/turf/open/floor/sepia,
+/area/space)
+"fv" = (
+/obj/structure/chair/office,
+/turf/open/floor/carpet/purple,
+/area/space)
+"fz" = (
+/obj/effect/turf_decal/siding/purple/corner,
+/turf/open/floor/iron,
+/area/space)
+"fK" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/rock/pile/style_random,
+/turf/open/water/overlay,
+/area/space)
+"fT" = (
+/obj/structure/closet/firecloset/wall/directional/south,
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "gd" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/closet/secure_closet/miner,
@@ -215,12 +284,25 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"gV" = (
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/turf/open/floor/carpet/purple,
+/area/space)
 "hv" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
+/area/space)
+"hS" = (
+/obj/structure/table/glass,
+/turf/open/floor/iron/dark,
+/area/space)
+"hV" = (
+/turf/open/floor/glass,
 /area/space)
 "hY" = (
 /obj/structure/window/spawner/directional/east,
@@ -237,6 +319,11 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/wood/parquet,
 /area/space)
+"ir" = (
+/obj/structure/table,
+/obj/item/storage/box/coffeepack,
+/turf/open/floor/carpet/purple,
+/area/space)
 "iF" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 1
@@ -247,6 +334,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white/diagonal,
+/area/space)
+"iP" = (
+/obj/structure/table/wood/poker,
+/turf/open/floor/wood/parquet,
+/area/space)
+"iU" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/iron/white,
 /area/space)
 "jc" = (
 /obj/machinery/shower/directional/west,
@@ -281,6 +376,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
+"jZ" = (
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
 "kg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply,
 /turf/open/floor/mineral/titanium/tiled/yellow,
@@ -299,13 +397,47 @@
 	dir = 8
 	},
 /area/space)
+"kD" = (
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/floor/wood,
+/area/space)
 "kG" = (
 /turf/open/floor/iron/freezer,
+/area/space)
+"kL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/sepia,
 /area/space)
 "kM" = (
 /turf/open/floor/iron/textured_edge{
 	dir = 4
 	},
+/area/space)
+"lq" = (
+/turf/open/floor/carpet/purple,
+/area/space)
+"lG" = (
+/obj/machinery/door/airlock/mining,
+/turf/open/floor/iron,
+/area/space)
+"lJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/sepia,
+/area/space)
+"lL" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron,
 /area/space)
 "lO" = (
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -339,6 +471,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
+/area/space)
+"mS" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/cafeteria,
 /area/space)
 "mU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -380,6 +516,12 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/space)
+"np" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "ns" = (
 /obj/structure/chair/sofa/right/brown,
 /turf/open/floor/plastic,
@@ -392,6 +534,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
+/area/space)
+"nG" = (
+/turf/open/floor/iron/checker,
+/area/space)
+"nK" = (
+/obj/structure/table,
+/obj/machinery/coffeemaker,
+/turf/open/floor/carpet/purple,
 /area/space)
 "nL" = (
 /obj/structure/flora/tree/pine/style_random,
@@ -433,6 +583,27 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
 /area/space)
+"oA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"oP" = (
+/obj/effect/turf_decal/stripes{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "pH" = (
 /turf/open/misc/snow,
 /area/space)
@@ -443,6 +614,10 @@
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
+/area/space)
+"pP" = (
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/wood/parquet,
 /area/space)
 "pZ" = (
 /obj/effect/landmark/awaystart,
@@ -463,8 +638,18 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/space)
+"qv" = (
+/obj/machinery/scanner_gate,
+/turf/open/floor/iron,
+/area/space)
 "qB" = (
 /turf/open/floor/iron/dark/side,
+/area/space)
+"qC" = (
+/obj/structure/table{
+	pixel_x = -2
+	},
+/turf/open/floor/iron,
 /area/space)
 "qI" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -539,6 +724,15 @@
 /obj/structure/window/spawner/directional/south,
 /turf/open/floor/iron,
 /area/space)
+"rY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 2
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/sepia,
+/area/space)
 "sg" = (
 /obj/structure/table,
 /obj/machinery/coffeemaker,
@@ -568,6 +762,16 @@
 /obj/structure/table,
 /turf/open/floor/iron/white/herringbone,
 /area/space)
+"sL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
+"sU" = (
+/obj/structure/closet/emcloset/wall/directional/west,
+/turf/open/floor/carpet/purple,
+/area/space)
 "sW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -578,6 +782,12 @@
 /obj/machinery/vending/sustenance,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plastic,
+/area/space)
+"to" = (
+/obj/structure/chair/comfy/beige{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
 /area/space)
 "tq" = (
 /obj/effect/turf_decal/bot,
@@ -602,6 +812,10 @@
 	},
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/wood/parquet,
+/area/space)
+"tS" = (
+/obj/structure/sink/kitchen/directional/north,
+/turf/open/floor/iron/white,
 /area/space)
 "uA" = (
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -636,6 +850,10 @@
 /area/space)
 "vK" = (
 /turf/open/floor/plating,
+/area/space)
+"vP" = (
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/wood/parquet,
 /area/space)
 "vQ" = (
 /obj/structure/chair{
@@ -703,10 +921,23 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
 /area/space)
+"yg" = (
+/obj/effect/turf_decal/siding/purple,
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "yk" = (
 /turf/open/floor/iron/textured_edge{
 	dir = 1
 	},
+/area/space)
+"yx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "yA" = (
 /turf/closed/mineral/iron,
@@ -717,6 +948,10 @@
 	},
 /obj/machinery/light/cold/directional/west,
 /turf/open/floor/carpet,
+/area/space)
+"yM" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/dark,
 /area/space)
 "yQ" = (
 /obj/structure/table/wood,
@@ -735,13 +970,35 @@
 /obj/machinery/shower/directional/west,
 /turf/open/floor/iron/freezer,
 /area/space)
+"yW" = (
+/obj/effect/turf_decal/siding/purple,
+/turf/open/floor/iron,
+/area/space)
 "zi" = (
 /turf/open/floor/wood,
+/area/space)
+"zC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4;
+	pixel_x = -5
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "zJ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/space)
+"zQ" = (
+/obj/structure/table,
+/turf/open/floor/iron/white,
+/area/space)
+"zR" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/turf/open/floor/iron,
 /area/space)
 "Af" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -765,10 +1022,26 @@
 	},
 /turf/open/floor/iron/white/herringbone,
 /area/space)
+"Ak" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/space)
 "Ao" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/parquet,
+/area/space)
+"AE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"AH" = (
+/turf/open/floor/iron/cafeteria,
 /area/space)
 "AJ" = (
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -839,10 +1112,24 @@
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/iron,
 /area/space)
+"Ch" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/south,
+/turf/open/floor/iron,
+/area/space)
+"Cu" = (
+/turf/open/floor/iron/white,
+/area/space)
 "Cv" = (
 /turf/open/floor/iron/textured_corner{
 	dir = 4
 	},
+/area/space)
+"Cw" = (
+/obj/structure/table,
+/obj/item/modular_computer{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
 /area/space)
 "CB" = (
 /obj/machinery/door/airlock,
@@ -857,10 +1144,18 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
 /area/space)
+"CL" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/east,
+/turf/open/floor/iron,
+/area/space)
 "CN" = (
 /obj/structure/flora/tree/jungle/style_random,
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
+/area/space)
+"CR" = (
+/obj/machinery/griddle,
+/turf/open/floor/iron/white,
 /area/space)
 "CS" = (
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -869,6 +1164,12 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/grass,
+/area/space)
+"CY" = (
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 2
+	},
+/turf/open/floor/iron,
 /area/space)
 "Dt" = (
 /obj/machinery/computer/old{
@@ -897,12 +1198,23 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron,
 /area/space)
+"Et" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/ocean/glowweed,
+/turf/open/water/overlay,
+/area/space)
 "EY" = (
 /turf/open/floor/carpet,
 /area/space)
 "Fa" = (
 /obj/machinery/door/airlock/titanium,
 /turf/open/floor/iron/dark/herringbone,
+/area/space)
+"Ff" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/space)
 "Fj" = (
 /obj/structure/chair/sofa/bench/left,
@@ -922,6 +1234,10 @@
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/iron/freezer,
 /area/space)
+"FY" = (
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/iron/cafeteria,
+/area/space)
 "Gw" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -935,6 +1251,16 @@
 /area/space)
 "Hl" = (
 /turf/open/floor/plastic,
+/area/space)
+"HD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating/elevatorshaft,
+/area/space)
+"HQ" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron,
 /area/space)
 "HR" = (
 /obj/machinery/power/terminal{
@@ -955,10 +1281,20 @@
 /obj/structure/cable,
 /turf/open/floor/carpet,
 /area/space)
+"Ie" = (
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron,
+/area/space)
 "In" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
+/area/space)
+"IG" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/space)
 "IS" = (
 /obj/machinery/vending/coffee,
@@ -1003,9 +1339,27 @@
 /obj/machinery/light/cold/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"Kz" = (
+/obj/effect/turf_decal/stripes{
+	dir = 6
+	},
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "KM" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron,
+/area/space)
+"KS" = (
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/space)
 "Lf" = (
@@ -1055,6 +1409,14 @@
 	},
 /turf/open/floor/plastic,
 /area/space)
+"Mo" = (
+/obj/structure/table,
+/obj/item/modular_computer{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/space)
 "MI" = (
 /obj/structure/table/glass,
 /turf/open/floor/iron/smooth,
@@ -1080,6 +1442,16 @@
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/iron,
 /area/space)
+"Ne" = (
+/obj/machinery/door/airlock/freezer{
+	name = "Freezer"
+	},
+/turf/open/floor/iron/freezer,
+/area/space)
+"Nf" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/space)
 "Nj" = (
 /turf/open/floor/iron/dark,
 /area/space)
@@ -1088,6 +1460,12 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
+/area/space)
+"NJ" = (
+/obj/structure/chair/comfy/brown{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/space)
 "NR" = (
 /obj/machinery/power/terminal{
@@ -1122,6 +1500,7 @@
 /area/space)
 "Om" = (
 /obj/machinery/door/airlock/titanium/glass,
+/obj/machinery/scanner_gate,
 /turf/open/floor/iron/dark/herringbone,
 /area/space)
 "On" = (
@@ -1170,8 +1549,21 @@
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/grass,
 /area/space)
+"Pz" = (
+/obj/effect/turf_decal/siding/purple,
+/obj/effect/turf_decal/siding/purple/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "PC" = (
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/space)
+"PD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/sepia,
 /area/space)
 "PE" = (
 /obj/effect/turf_decal/siding/blue/corner{
@@ -1227,6 +1619,10 @@
 "Rh" = (
 /turf/open/floor/iron/textured_edge,
 /area/space)
+"Rx" = (
+/obj/structure/chair/comfy/beige,
+/turf/open/floor/iron/checker,
+/area/space)
 "RC" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/vending/cigarette,
@@ -1271,6 +1667,12 @@
 	},
 /turf/open/floor/iron/white/herringbone,
 /area/space)
+"Sk" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "Sn" = (
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/iron/dark/side{
@@ -1314,6 +1716,11 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/floor/grass,
 /area/space)
+"SO" = (
+/obj/machinery/door/airlock/glass_large,
+/obj/machinery/scanner_gate,
+/turf/open/floor/iron,
+/area/space)
 "SW" = (
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/west,
@@ -1322,6 +1729,26 @@
 "Tb" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
+/area/space)
+"Tj" = (
+/obj/machinery/holopad/secure,
+/turf/open/floor/iron/white,
+/area/space)
+"Tk" = (
+/obj/structure/table,
+/turf/open/floor/carpet/purple,
+/area/space)
+"Tv" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/space)
+"Ty" = (
+/obj/machinery/computer/old{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
 /area/space)
 "TB" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -1375,11 +1802,26 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/mineral/titanium,
 /area/space)
+"Uh" = (
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Ui" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
+/area/space)
+"Um" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Ur" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -1403,6 +1845,12 @@
 /area/space)
 "Vn" = (
 /turf/open/floor/iron/textured_corner,
+/area/space)
+"VQ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating/elevatorshaft,
 /area/space)
 "VW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1435,6 +1883,10 @@
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/carpet,
 /area/space)
+"WX" = (
+/obj/machinery/computer/slot_machine,
+/turf/open/floor/wood,
+/area/space)
 "Xi" = (
 /obj/machinery/light/cold/directional/east,
 /turf/open/floor/iron/smooth,
@@ -1449,6 +1901,11 @@
 "Xz" = (
 /obj/structure/hedge,
 /turf/open/floor/iron,
+/area/space)
+"XU" = (
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/flora/ocean/coral,
+/turf/open/water/overlay,
 /area/space)
 "XW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -1512,6 +1969,18 @@
 /obj/machinery/light/cold/directional/north,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
+"YJ" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/modular_computer/preset/civilian{
+	dir = 4;
+	pixel_x = -5
+	},
+/turf/open/floor/iron,
+/area/space)
+"YP" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron,
+/area/space)
 "YS" = (
 /obj/structure/chair/sofa/bench/right,
 /turf/open/floor/iron,
@@ -1558,6 +2027,12 @@
 /area/space)
 "ZG" = (
 /turf/open/floor/iron/dark/textured,
+/area/space)
+"ZQ" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 1
+	},
+/turf/open/floor/iron,
 /area/space)
 "ZR" = (
 /obj/structure/fans/tiny/forcefield{
@@ -43605,8 +44080,8 @@ SL
 rU
 rU
 rU
-au
-au
+Ie
+YP
 au
 au
 rU
@@ -43618,7 +44093,7 @@ rU
 rU
 au
 rU
-bq
+YJ
 rU
 rU
 rU
@@ -44131,7 +44606,7 @@ ZG
 au
 au
 au
-di
+SO
 au
 au
 au
@@ -44388,7 +44863,7 @@ ZG
 au
 au
 au
-au
+qv
 au
 au
 au
@@ -44643,7 +45118,7 @@ Zy
 Zy
 ZG
 au
-au
+rU
 rU
 rU
 rU
@@ -44901,7 +45376,7 @@ Om
 rU
 rU
 rU
-rU
+vK
 vK
 rU
 au
@@ -45642,23 +46117,23 @@ pH
 pH
 pH
 pH
+rU
 pH
 pH
-pH
-pH
-pH
-pH
-qP
-qP
 rU
 rU
-au
+rU
+rU
 rU
 rU
 rU
 au
-au
-au
+rU
+rU
+rU
+qM
+qC
+qR
 rU
 rU
 vK
@@ -45899,22 +46374,22 @@ pH
 pH
 pH
 pH
+rU
 pH
 pH
 pH
-pH
-pH
-pH
-qP
+rU
 au
 au
 au
 au
+CL
+CL
+CL
+CL
 au
 au
-au
-au
-au
+vQ
 au
 au
 rU
@@ -46161,15 +46636,15 @@ pH
 pH
 pH
 pH
-qP
 au
 au
 au
-au
-au
-au
-au
-au
+Ch
+BU
+Et
+fK
+fK
+zR
 au
 au
 au
@@ -46418,15 +46893,15 @@ pH
 pH
 pH
 pH
-qP
 au
 au
 au
-au
-au
-au
-au
-au
+Ch
+dB
+fK
+BU
+XU
+zR
 au
 au
 au
@@ -46449,7 +46924,7 @@ Fa
 au
 au
 Qa
-Qa
+qC
 rU
 au
 Uc
@@ -46670,19 +47145,19 @@ pH
 pH
 pH
 pH
+rU
 pH
 pH
 pH
-pH
-pH
-qP
+rU
 au
 au
 au
 au
-au
-au
-au
+bg
+bg
+bg
+bg
 au
 au
 au
@@ -46927,11 +47402,11 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-qP
+rU
+rU
+rU
+rU
+rU
 rU
 xY
 CS
@@ -47190,19 +47665,19 @@ pH
 pH
 qP
 rU
-au
-au
-au
-au
-au
+nG
+nG
+dt
+nG
+nG
 PI
 au
 au
 PI
-au
-au
-au
-au
+sU
+lq
+Mo
+ZQ
 au
 TB
 TB
@@ -47222,8 +47697,8 @@ au
 au
 au
 rU
-au
-au
+lG
+lG
 rU
 rU
 rU
@@ -47447,19 +47922,19 @@ pH
 pH
 qP
 rU
-au
-au
-au
-au
-au
+nG
+hS
+hS
+hS
+nG
 PI
 au
 au
 PI
-au
-au
-au
-au
+lq
+fv
+gV
+ZQ
 au
 au
 TB
@@ -47472,7 +47947,7 @@ Vn
 ZA
 rU
 rU
-Nj
+Nf
 rU
 Ce
 au
@@ -47704,20 +48179,20 @@ pH
 pH
 qP
 rU
-au
-au
-au
-au
-au
+Rx
+hS
+hV
+hS
+cp
 PI
 au
 au
 PI
-au
-au
-au
-au
-au
+lq
+Tk
+Tk
+ZQ
+cZ
 au
 au
 TB
@@ -47728,8 +48203,8 @@ Zy
 ZA
 rU
 rU
-Nj
-Nj
+NJ
+zi
 rU
 Fj
 au
@@ -47739,7 +48214,7 @@ au
 au
 au
 au
-KM
+lL
 rU
 qP
 pH
@@ -47951,42 +48426,42 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
+rU
+rU
+rU
+rU
 pH
 pH
 pH
 pH
 qP
 rU
-au
-au
-au
-au
-au
+nG
+hS
+bJ
+hS
+nG
 PI
 au
 au
 PI
-au
-au
-au
-au
-au
-au
-au
-au
+IG
+IG
+IG
+KS
+CY
+np
+np
+fT
 rU
 rU
 Fa
 Fa
 rU
 rU
+HQ
+Ak
 zi
-Nj
-Nj
 rU
 Xz
 au
@@ -48208,21 +48683,21 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
+eX
+vK
+vK
+rU
 pH
 pH
 pH
 pH
 qP
 rU
-au
-au
-au
-au
-au
+Rx
+hS
+hV
+hS
+cp
 rU
 au
 au
@@ -48231,19 +48706,19 @@ au
 au
 au
 au
-au
-au
-au
-au
+yW
+Tk
+Ty
+Cw
 rU
 au
 au
 au
-pH
 au
-zi
-zi
-zi
+au
+Sk
+Ff
+Ff
 rU
 rU
 rU
@@ -48465,42 +48940,42 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
+rU
+vK
+vK
+rU
 pH
 pH
 pH
 pH
 qP
 rU
+nG
+hS
+hS
+hS
+nG
 au
 au
 au
 au
-au
-au
-au
-au
-au
-au
-au
-au
-au
-au
-au
-au
-au
+fz
+np
+np
+np
+Pz
+Tk
+Tv
+lq
 rU
 au
 au
 au
 au
 au
-zi
-zi
-zi
+au
+au
+au
 rU
 au
 au
@@ -48722,33 +49197,33 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
+rU
+vK
+vK
+rU
 pH
 pH
 pH
 pH
 qP
 rU
-au
-au
-au
-au
-au
+nG
+to
+nG
+to
+nG
 rU
 au
 au
 rU
-au
-au
-au
-au
-au
-au
-au
-au
+yW
+nK
+ir
+Tk
+yg
+lq
+lq
+lq
 rU
 au
 au
@@ -48979,15 +49454,15 @@ pH
 pH
 pH
 pH
+rU
+vK
+vK
+rU
 pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-qP
+rU
 rU
 rU
 rU
@@ -49007,21 +49482,21 @@ rU
 rU
 rU
 rU
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-rU
-rU
-pH
+au
+au
+au
 rU
 rU
 rU
 rU
+eX
+rU
+rU
+fs
+rU
+PI
+PI
+PI
 rU
 qP
 pH
@@ -49236,49 +49711,49 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+vK
+vK
 rU
 pH
 pH
 pH
 pH
-pH
-pH
+rU
+CR
+zQ
+zQ
+rU
+kG
+kG
+rU
+au
+au
+rU
+Nj
+Nj
+zC
+zC
+zC
+zC
+Nj
+Nj
+rU
+au
+au
+au
+rU
+vK
+vK
+vK
+vK
+rU
+zi
+cF
+kL
+vP
+iP
+iP
 rU
 qP
 pH
@@ -49493,49 +49968,49 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+vK
+vK
 rU
 pH
 pH
 pH
 pH
-pH
-pH
+rU
+Cu
+Tj
+Cu
+Ne
+kG
+kG
+rU
+au
+au
+rU
+Nj
+br
+yx
+jZ
+jZ
+sL
+AE
+Nj
+rU
+au
+au
+au
+rU
+vK
+vK
+vK
+vK
+rU
+kD
+kD
+rY
+vP
+iP
+iP
 rU
 qP
 pH
@@ -49750,49 +50225,49 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
 rU
-pH
-pH
-pH
-pH
-pH
-pH
+vK
+vK
+rU
+rU
+rU
+rU
+rU
+rU
+iU
+Cu
+tS
+rU
+kG
+kG
+rU
+au
+au
+rU
+Nj
+br
+jZ
+jZ
+jZ
+jZ
+AE
+Nj
+rU
+au
+au
+au
+rU
+vK
+rU
+rU
+rU
+rU
+WX
+WX
+lJ
+PD
+pP
+pP
 rU
 qP
 pH
@@ -50007,42 +50482,42 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+vK
+vK
+eX
+vK
+vK
+vK
+vK
+rU
+rU
+mS
+mS
+rU
+rU
+rU
+rU
+au
+au
+rU
+Nj
+br
+jZ
+jZ
+jZ
+jZ
+AE
+Nj
+rU
+au
+au
+au
+rU
+eX
+rU
+vK
+vK
 rU
 rU
 rU
@@ -50264,51 +50739,51 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-qP
+rU
+rU
+rU
+rU
+rU
+vK
+vK
+vK
+vK
+eX
+FY
+FY
+AH
+AH
+AH
+rU
+au
+au
+rU
+Nj
+br
+VQ
+jZ
+jZ
+HD
+AE
+Nj
+rU
+au
+au
+au
+rU
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+eX
+vK
 pH
 pH
 pH
@@ -50525,46 +51000,46 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+rU
+rU
+rU
+rU
+rU
+AH
+AH
+AH
+AH
+AH
+rU
+au
+au
+rU
+yM
+Uh
+oA
+oA
+oA
+oA
+Uh
+Um
+rU
+au
+au
+au
+rU
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+vK
+rU
+rU
+rU
+rU
 pH
 pH
 pH
@@ -50783,45 +51258,45 @@ pH
 pH
 pH
 pH
+rU
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+AH
+AH
+AH
+AH
+AH
+rU
+au
+au
+rU
+Kz
+au
+au
+au
+au
+au
+au
+oP
+rU
+au
+au
+au
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+au
+au
+rU
 pH
 pH
 pH
@@ -51045,40 +51520,40 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
 pH
 pH
 pH
@@ -51297,45 +51772,45 @@ pH
 pH
 pH
 pH
+rU
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+rU
+au
+au
+au
+rU
 pH
 pH
 pH
@@ -51559,40 +52034,40 @@ pH
 pH
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
+au
 pH
 pH
 pH
@@ -51811,45 +52286,45 @@ pH
 pH
 pH
 pH
+rU
 pH
 pH
 pH
+rU
+rU
+rU
+rU
+rU
+rU
+rU
 pH
 pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
+rU
 pH
 pH
 pH
